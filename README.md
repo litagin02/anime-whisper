@@ -10,25 +10,6 @@
 このGitHubリポジトリは、モデル本体とは直接関係がない情報（学習コードや評価詳細や考察等）を随時更新しながら公開するためのものです（🤗モデルリポジトリを更新するとそのたびにモデルの再ダウンロードが起きる可能性があるため隔離）。
 
 以下だいたい[モデルカード](https://huggingface.co/litagin/anime-whisper)からコピペ：
----
-library_name: transformers
-license: mit
-base_model: kotoba-tech/kotoba-whisper-v2.0
-datasets:
-- litagin/Galgame_Speech_ASR_16kHz
-- OOPPEENN/Galgame_Dataset
-language:
-- ja
-pipeline_tag: automatic-speech-recognition
----
-
-# Anime Whisper 🥰🎤📝
-
-**Anime Whisper** は、特に日本語のアニメ調演技セリフドメインに特化した日本語音声認識モデルです。
-このモデルは [kotoba-whisper-v2.0](https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0) をベースモデルとして、約5,300時間373万ファイルのアニメ調の音声・台本データセット [Galgame_Speech_ASR_16kHz](https://huggingface.co/datasets/litagin/Galgame_Speech_ASR_16kHz) でファインチューニングしたものです。
-特にアニメ演技音声ドメインに特化していますが、それ以外の音声でも、他のモデルにはない特徴や高い性能を持っています。
-
-気軽にお試しできるデモはこちらから: https://huggingface.co/spaces/litagin/anime-whisper-demo
 
 ## 特徴 🌟
 
